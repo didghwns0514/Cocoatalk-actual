@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="css/style.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Cocoa talk</title>
   </head>
   <body>
-    <div id="status-bar">
+    <nav class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <!-- To do! Wifi Icon -->
@@ -19,23 +20,33 @@
       <div class="status-bar__column">
         <span>100%</span>
         <!-- Todo! Battery Icon -->
-        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
         <!-- Lightenin Icon -->
         <i class="fas fa-bolt"></i>
       </div>
-    </div>
+    </nav>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Cocoa Clone</h1>
-      <p class="welcome-header__text">If you have a Cocoa Account, log in with your account</p>
+      <h1 class="welcome-header__title">Welcome to CocoaTalk</h1>
+      <p class="welcome-header__text quote">
+        When you go through hardships and decide not to surrender<br />
+        that is strength <br />
+        — Arnold Schwarzenegger
+      </p>
+      <p class="welcome-header__text login">
+        If you have a Cocoa Account <br />
+        Please log in with your account
+      </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or Phone number" />
-      <input type="text" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Cocoa Account or Password</a>
-    </form>
+    <main class="welcome-main">
+      <form id="login-form">
+        <input type="text" placeholder="Email or Phone number" />
+        <input type="text" placeholder="Password" />
+        <input type="submit" value="Log In" />
+        <a href="#">Find Cocoa Account or Password</a>
+      </form>
+    </main>
   </body>
   <script defer src="https://kit.fontawesome.com/3cdaedc6ab.js" crossorigin="anonymous"></script>
 </html>

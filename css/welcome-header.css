@@ -1,0 +1,29 @@
+.welcome-header {
+  margin: 18% 0%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 8%;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.welcome-header__text {
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 3%;
+  color: grey;
+  opacity: 0.8;
+}
+
+.welcome-header__text.quote {
+}
+
+.welcome-header__text.login {
+  margin-top: 10px;
+  width: 60%;
+}
