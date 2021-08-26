@@ -44,7 +44,7 @@ Git repo for cocoatalk webpage
   - [HeroIcons](https://heroicons.com)
   - [FontAwesome : Fronts + Icons](https://fontawesome.com)
 
-## 4) CSS psudeo selectors
+## 4-1) CSS psudeo selectors
 
 - Try to limit parent side first
 - Example
@@ -57,6 +57,39 @@ Git repo for cocoatalk webpage
       }
 
     ```
+
+## 4-2) CSS not
+
+- Use not syntax when you don't want something to happen for the CSS condition
+- Example
+
+  - Condition with "not" will be excluded from the CSS selector's selected element
+
+  - HTML
+    ```HTML
+      <main class="welcome-main">
+        <form id="login-form">
+          <input type="text" placeholder="Email or Phone number" />
+          <input type="text" placeholder="Password" />
+          <input type="submit" value="Log In" />
+          <a href="#">Find Cocoa Account or Password</a>
+        </form>
+      </main>
+    ```
+  - CSS
+    ```CSS
+      #login-form > input:not([type="submit"]) {
+        /* margin-bottom: 12px; */
+        /* padding-bottom: 12px; */
+        /* padding: 13px 0px; */
+        border: none;
+        border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
+        font-size: 18px;
+        transition: border-bottom 0.5s ease-in-out;
+      }
+    ```
+  - Result
+    -> This will exclude the "Log in" input button
 
 ## 5) Font family
 
@@ -162,3 +195,17 @@ Git repo for cocoatalk webpage
 ## 10) Text-align VS Flex-center
 
 - If you are working with Text tags like p, h(n) tags; Just use text-align properties;
+
+## 11) Inheritance
+
+- You can give an element's css attribute value, a inhert.
+- This will make the parent's base attribute move on the the child, the current one.
+- Example
+  - CSS
+    ```CSS
+      #login-form > a {
+        text-align: center;
+        text-decoration: none;
+        color: inherit; /* This will inherit parent's attributes */
+      }
+    ```
