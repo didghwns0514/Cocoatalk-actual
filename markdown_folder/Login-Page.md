@@ -209,3 +209,29 @@ Git repo for cocoatalk webpage
         color: inherit; /* This will inherit parent's attributes */
       }
     ```
+
+## 12) Form other attributes
+
+- action : What server location would you send the form inputs to
+- method : GET / POST; GET uses string query, POST uses body and is more secure but requires a server.
+
+- Example
+
+  - HTML
+
+    ```HTML
+      <main class="welcome-main">
+        <form action="friends.html" method="GET" id="login-form">
+          <input name="username" type="text" placeholder="Email or Phone number" />
+          <input name="password" type="text" placeholder="Password" />
+          <input type="submit" value="Log In" />
+          <a href="#">Find Cocoa Account or Password</a>
+        </form>
+      </main>
+    ```
+
+  - Result
+
+      <img src='images/2021-09-01-01-18-29.png' />
+
+    - Not good for security reasons, but sometimes good for displaying infos

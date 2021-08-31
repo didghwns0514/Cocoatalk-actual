@@ -1,0 +1,10 @@
+nav .friends-nav {
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+}
+
+nav .friends-nav__ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}

@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Cocoa talk</title>
+    
+    <title>Friends - Cocoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -26,27 +27,24 @@
       </div>
     </div>
 
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to CocoaTalk</h1>
-      <p class="welcome-header__text quote">
-        When you go through hardships and decide not to surrender<br />
-        that is strength <br />
-        — Arnold Schwarzenegger
-      </p>
-      <p class="welcome-header__text login">
-        If you have a Cocoa Account <br />
-        Please log in with your account
-      </p>
-    </header>
+    <nav class="friends-nav">
+      <ul class="friends-nav__ul">
+        <li class="friends-nav__li">
+          <a class="friends-nav__a" href="friends.html"><i class="fas fa-user fa-lg"></i></a>
+        </li>
+        <li class="friends-nav__li">
+          <a class="friends-nav__a" href="#"><i class="far fa-comment fa-lg"></i></a>
+        </li>
+        <li class="friends-nav__li">
+          <a class="friends-nav__a" href="#"><i class="fas fa-search fa-lg"></i></a>
+        </li>
+        <li class="friends-nav__li">
+          <a class="friends-nav__a" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+        </li>
+      </ul>
+    </nav>
 
-    <main class="welcome-main">
-      <form action="friends.html" method="GET" id="login-form">
-        <input name="username" type="text" placeholder="Email or Phone number" />
-        <input name="password" type="text" placeholder="Password" />
-        <input type="submit" value="Log In" />
-        <a href="#">Find Cocoa Account or Password</a>
-      </form>
-    </main>
+    <main class="welcome-main"></main>
   </body>
   <script defer src="https://kit.fontawesome.com/3cdaedc6ab.js" crossorigin="anonymous"></script>
 </html>
