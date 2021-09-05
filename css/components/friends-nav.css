@@ -1,10 +1,43 @@
-nav .friends-nav {
-  background-color: #f9f9fa;
-  padding: 20px 50px;
+.friends-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fac2;
+  padding: 13px 50px;
+  border-top: rgba(0, 0, 0, 0.115) solid 1.3px;
+
+  box-sizing: border-box;
 }
 
 nav .friends-nav__ul {
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
+  /* padding: 20px 50px; */
+}
+nav .friends-nav__li {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__a--notification {
+  background-color: tomato;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  /* display: flex; */
+  position: absolute;
+  right: -10px;
+  top: -10px;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
 }

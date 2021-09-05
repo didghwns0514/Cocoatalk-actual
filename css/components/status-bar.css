@@ -2,6 +2,11 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: ivory;
 }
 .status-bar__column {
   /* This is devision by n times of box elements */

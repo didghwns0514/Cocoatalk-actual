@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <title>Friends - Cocoa Clone</title>
   </head>
   <body>
@@ -27,13 +27,18 @@
       </div>
     </div>
 
+    <main class="welcome-main"></main>
+
     <nav class="friends-nav">
       <ul class="friends-nav__ul">
         <li class="friends-nav__li">
           <a class="friends-nav__a" href="friends.html"><i class="fas fa-user fa-lg"></i></a>
         </li>
         <li class="friends-nav__li">
-          <a class="friends-nav__a" href="#"><i class="far fa-comment fa-lg"></i></a>
+          <a class="friends-nav__a" href="#">
+            <span class="nav__a--notification">1</span>
+            <i class="far fa-comment fa-lg"></i>
+          </a>
         </li>
         <li class="friends-nav__li">
           <a class="friends-nav__a" href="#"><i class="fas fa-search fa-lg"></i></a>
@@ -43,8 +48,6 @@
         </li>
       </ul>
     </nav>
-
-    <main class="welcome-main"></main>
   </body>
   <script defer src="https://kit.fontawesome.com/3cdaedc6ab.js" crossorigin="anonymous"></script>
 </html>

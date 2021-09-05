@@ -1,3 +1,5 @@
+<link href="md_config/style.css" rel="stylesheet" />
+
 # Cocoatalk-actual
 
 Git repo for cocoatalk webpage
