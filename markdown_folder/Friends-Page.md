@@ -35,3 +35,13 @@ Git repo for cocoatalk webpage
 
 - Span 은 원래 width, height 줄 수 없는데, flex property 부과하면 줄 수 있게 됨  
   -> display: block / display: inline-block
+
+## 4) Position sticky + value
+
+- This will stick the element in a given position relative to screen(Offset) and then it will be sitcked to that position
+
+## 5) em, rem
+
+[중요 참조링크](https://medium.com/watcha/watcha-%EA%B0%9C%EB%B0%9C-%EC%A7%80%EC%8B%9D-px-em-rem-f569c6e76e66)
+[참조 링크1](https://www.codingfactory.net/10748)
+

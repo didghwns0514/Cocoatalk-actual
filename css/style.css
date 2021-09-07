@@ -8,6 +8,11 @@
 /* Screens */
 @import url("/css/screens/welcome-header.css");
 @import url("/css/screens/welcome-main.css");
+@import url("/css/components/friends-header.css");
+
+html {
+    font-size: 62.5%;
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Roboto, Oxygen, Ubuntu, Cantarell,

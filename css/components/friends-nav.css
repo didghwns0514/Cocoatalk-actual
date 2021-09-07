@@ -1,12 +1,14 @@
 .friends-nav {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  top: 95%;
+
   width: 100%;
   background-color: #f9f9fac2;
   padding: 13px 50px;
   border-top: rgba(0, 0, 0, 0.115) solid 1.3px;
 
   box-sizing: border-box;
+  font-size: 1.2rem;
 }
 
 nav .friends-nav__ul {
@@ -30,7 +32,7 @@ nav .friends-nav__li {
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 1rem;
   /* display: flex; */
   position: absolute;
   right: -10px;
