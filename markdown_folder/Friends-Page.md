@@ -40,8 +40,31 @@ Git repo for cocoatalk webpage
 
 - This will stick the element in a given position relative to screen(Offset) and then it will be sitcked to that position
 
+- CSS
+
+  ```CSS
+    .status-bar {
+      display: flex;
+      justify-content: center;
+      padding: 5px 3px;
+
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0rem;
+      margin-bottom: 0.2rem;
+      /* top: 0;
+      width: 100%; */
+      background-color: ivory;
+      font-size: 1.3rem;
+    }
+  ```
+
 ## 5) em, rem
 
 [중요 참조링크](https://medium.com/watcha/watcha-%EA%B0%9C%EB%B0%9C-%EC%A7%80%EC%8B%9D-px-em-rem-f569c6e76e66)
 [참조 링크1](https://www.codingfactory.net/10748)
 
+## 6) Always, before creating Something
+
+- See if you can reuse that element
+- if yes, it should be made as a component style in CSS

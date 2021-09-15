@@ -4,6 +4,7 @@
 /* Component */
 @import url("/css/components/status-bar.css");
 @import url("/css/components/friends-nav.css");
+@import url("/css/components/friends-main.css");
 
 /* Screens */
 @import url("/css/screens/welcome-header.css");
@@ -11,7 +12,7 @@
 @import url("/css/components/friends-header.css");
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {

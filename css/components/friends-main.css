@@ -1,0 +1,26 @@
+#friends-div-link {
+  background-color: rgba(0, 0, 0, 0.03);
+  margin-top: 1rem;
+  padding: 1.4rem;
+}
+
+#friends-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas.fa-info {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.fas.fa-chevron-right {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#friends-link--text {
+  font-size: 1.35rem;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
