@@ -5,6 +5,7 @@
 @import url("/css/components/status-bar.css");
 @import url("/css/components/friends-nav.css");
 @import url("/css/components/friends-main.css");
+@import url("/css/components/user-display-main.css");
 
 /* Screens */
 @import url("/css/screens/welcome-header.css");

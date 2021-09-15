@@ -1,3 +1,7 @@
 :root {
   --input-focused-yellow: #fae100;
+  
+  --user-display-photo--small: 60px;
+  --user-display-photo--normal: 70px;
+  --user-display-photo--large: 80px;
 }

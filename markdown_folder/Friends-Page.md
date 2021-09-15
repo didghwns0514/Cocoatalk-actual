@@ -68,3 +68,14 @@ Git repo for cocoatalk webpage
 
 - See if you can reuse that element
 - if yes, it should be made as a component style in CSS
+
+## 7) apply same for 2 elements in CSS
+
+- CSS
+  ```CSS
+    .user-display,
+    .user-display--columns.main {
+      display: flex;
+      align-items: center;
+    }
+  ```

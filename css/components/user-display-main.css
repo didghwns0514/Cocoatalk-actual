@@ -1,0 +1,39 @@
+.user-display {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-display,
+.user-display--columns.main {
+  display: flex;
+  align-items: center;
+}
+
+.user-display--column-photo {
+  width: var(--user-display-photo--normal);
+  height: var(--user-display-photo--normal);
+  border-radius: 2.7rem;
+}
+
+.user-display--column.text {
+  font-size: 1.3rem;
+  margin-left: 1.4rem;
+}
+
+.user-display--column-text.name {
+  font-weight: 600;
+}
+
+.user-display--column-text.description {
+  opacity: 0.4;
+}
+
+.user-display--columns.sub {
+  width: 100%;
+  min-height: inherit;
+  max-width: 20%;
+  background-color: orange;
+}
